@@ -1,6 +1,7 @@
 /**
  * Based on: https://playground.arduino.cc/Main/TSL235R/
  * FireBeetle-ESP32: https://wiki.dfrobot.com/FireBeetle_ESP32_IOT_Microcontroller(V3.0)__Supports_Wi-Fi_&_Bluetooth__SKU__DFR0478#target_4
+ * Upload speed: 115200
  */
  
 const byte interruptPin = 25;

@@ -3,6 +3,7 @@
  * 
  * Based on: https://exploreembedded.com/wiki/AWS_IOT_with_Arduino_ESP32
  * FireBeetle: https://wiki.dfrobot.com/FireBeetle_ESP32_IOT_Microcontroller(V3.0)__Supports_Wi-Fi_&_Bluetooth__SKU__DFR0478
+ * Upload spedd: 115200
  * aws-root-ca: https://www.amazontrust.com/repository/AmazonRootCA1.pem
  * 
  * Remember to add your own values in secrets.h
