@@ -15,13 +15,14 @@
 
 AWS_IOT hornbill;
 
-//Variables
-unsigned float temp_amb = 0.0;
-unsigned float humid_amb = 0.0;
-unsigned float soil_moisture = 0.0;
-unsigned float light_level = 0.0;
+//Sensor variables
+float temp_amb = 0.0;
+float humid_amb = 0.0;
+float soil_moisture = 0.0;
+float light_level = 0.0;
 
-unsigned float light_set_point = 0.0;
+//Setpoint variables
+float light_set_point = 0.0;
 
 
 int status = WL_IDLE_STATUS;
