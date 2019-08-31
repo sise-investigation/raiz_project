@@ -86,16 +86,16 @@ void setup() {
 
 void sendData(){
   
-  if(msgReceived == 1)
+  if(msgReceived == 1) ///< when the subCallBackHandler recieved a message, change de msgRecieved variable to 1
     {
         msgReceived = 0;
         Serial.print("Received Message:");
         Serial.println(rcvdPayload);
     }
-    if(tick >= 5)   // publish to topic every 5seconds
+    if(tick >= 5)   ///< publish to topic every 5seconds
     {
         tick=0;
-        sprintf(payload,"{ \"desired\": { \"name\": 1 } }",msgCount++);
+        sprintf(payload,"Communication test",msgCount++);
         if(hornbill.publish(TOPIC_NAME,payload) == 0)
         {        
             Serial.print("Publish Message:");
